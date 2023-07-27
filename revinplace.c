@@ -9,7 +9,7 @@ void revstr1(char str1[],int start,int end){
     }
 }
 int main(){
-    char str1[]="=>: hsae : lken :<=cl",temp;
+    char str1[]="=>:23asdfg127 : 00 :00 <=",temp;
     int start,end,len;
     for(len=0;str1[len];len++);
     start=0;
