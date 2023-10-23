@@ -8,6 +8,5 @@ int main(){
         num=num/10;
     }
     printf("%d",res);
-    printf("The result is shown above");
     return 0;
 }
