@@ -9,4 +9,5 @@ class Solution(object):
         for i in li:
             if li[i]>len(nums)/2:
                 return i
+#leetcode problem
         
