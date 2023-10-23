@@ -7,6 +7,7 @@ int main(){
         res=res*10+div;
         num=num/10;
     }
+    printf("The result is shown below");
     printf("%d",res);
     return 0;
 }
