@@ -1,3 +1,4 @@
+//SORT AND FIND APPROACH
 class Solution {
     public long dividePlayers(int[] skill) {
         long res = 0;
@@ -14,4 +15,4 @@ class Solution {
         
     }
 }
-//SORT AND FIND APPROACH
+
