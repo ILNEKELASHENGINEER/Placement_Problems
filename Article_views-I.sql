@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+# Write your MySQL query statement
 select distinct author_id as id 
 from Views 
 where author_id = viewer_id
