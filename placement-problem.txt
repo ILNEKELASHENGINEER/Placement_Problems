@@ -1,0 +1,107 @@
+2)
+Problem statement 
+ 
+There are n boys and m girls going to museum . They should stand in a line so that boys and girls alternated there as much as possible. Let's assume that positions in the line are indexed from left to right by numbers from 1 to n + m. Then the number of integers i (1 ≤ i < n + m) such that positions with indexes i and i + 1 contain children of different genders (position i has a girl and position i + 1 has a boy or vice versa) must be as large as possible. Help the children and tell them how to form the line.
+
+Input Format
+The single line of the input contains two integers n and m (1 ≤ n, m ≤ 100), separated by a space.
+
+Output Format
+Print a line of n + m characters. Print on the i-th position of the line character "B", if the i-th position of your arrangement should have a boy and "G", if it should have a girl.
+Of course, the number of characters "B" should equal n and the number of characters "G" should equal m. If there are multiple optimal solutions, print any of them.
+
+**Constraints **
+(1 ≤ n, m ≤ 100)
+**Sample Input **
+4 1
+Sample output:
+BGBBB
+
+5      7
+GB GB GB GB GB GG
+
+
+3)
+Problem statement
+
+Ben loves ciphers. He has invented his own cipher called recreate. Recreate cipher is used for strings. To encrypt the string s=s1s2…sm (1≤m≤10), Polycarp uses the following algorithm:
+
+he writes down s1 ones,
+
+he writes down s2 twice,
+
+he writes down s3 three times, ...
+
+he writes down sm m times.
+
+For example, if s="bab" the process is: "b" → "baa" → "baabbb". So the encrypted s="bab" is "baabbb".
+
+Given string t — the result of encryption of some string s. Your task is to decrypt it, i. e. find the string s.
+
+Input Format
+
+The first line contains integer n(1<=n<=55)— the length of the encrypted string. The second line of the input contains t — the result of encryption of some string ss. It contains only lowercase Latin letters. The length of it is exactly n. It is guaranteed that the answer to the test exists.
+
+Output Format
+
+Print such string ss that after encryption it equals y
+
+Constraints
+
+(1<=n<=55)
+
+Sample Input
+
+6
+
+baabbb
+
+Sample Output
+
+bab
+
+Explanation
+
+if ss="bab" the process is: "b" →→ "baa" →→ "baabbb". So the encrypted ss="bab" is "baabbb".
+
+
+4)
+Problem statement
+Akhil created a whatsapp group decided to say hello to everybody. Akhil typed the word s. It is considered that Akhil managed to say hello if several letters can be deleted from the typed word so that it resulted in the word "hello". For example, if Akhil types the word "ahhellllloou", it will be considered that he said hello, and if he types "hlelo", it will be considered that Akhil got misunderstood and he didn't manage to say hello. Determine whether Akhil managed to say hello by the given word s.
+Input Format
+The first and only line contains the word s, which akhil typed. This word consisits of small Latin letters, its length is no less that 1 and no more than 100 letters.
+Output Format
+If Akhil managed to say hello, print "YES", otherwise print "NO".
+Constraints
+0<k<=30
+0<N<=30
+0<=a[i]<=500
+**Sample Input **
+ahhellllloou
+Sample Output
+yes
+Explanation:
+If any possible way to get ‘hello’ in same order and even if there are any letters between those letters then we can print YES. Otherwise print NO
+2
+5)
+Problem statement
+Manish is a boy. Yesterday he got a huge science hometask at school, so Manish didn't have enough time to properly learn the English alphabet for his English lesson. Unfortunately, the English teacher decided to have a test on alphabet today. At the test Manish got a square piece of squared paper. The length of the side equals n squares (n is an odd number) and each unit square contains some small letter of the English alphabet.
+Manish needs to know if the letters written on the square piece of paper form letter "X". Mansih's teacher thinks that the letters on the piece of paper form an "X", if:
+on both diagonals of the square paper all letters are the same; all other squares of the paper (they are not on the diagonals) contain the same letter that is different from the letters on the diagonals.
+Help Manish , write the program that completes the described task for him.
+Input Format
+The first line contains integer n .Each of the next n lines contains n small English letters — the description of Valera's paper.
+Output Format
+Print string "YES", if the letters on the paper form letter "X". Otherwise, print string "NO". Print the strings without quotes.
+**Constraints **
+(3 ≤ n < 300; n is odd)
+Sample Input
+5
+xooox
+oxoxo
+soxoo
+oxoxo
+xooox
+Sample Output
+NO
+gdb
